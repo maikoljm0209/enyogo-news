@@ -92,7 +92,7 @@ const App: React.FC = () => {
                     {error && !loading && (
                       <div className="col-12">
                         <div className="alert alert-danger mb-0" role="alert">
-                         Disculpe, se presento un error al cargar las noticias, presione F5 para recargar o espere de 10 a 5 segundos: {error}
+                         Disculpe, se presento un error al cargar las noticias, presione F5 para recargar o espere de 10 a 5 segundos y recargue: {error}
                         </div>
                       </div>
                     )}
